@@ -2,14 +2,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<?php id = "style">
+	<?php 
 		echo "<h1>PDO demo!</h1>";
 	$username = 'elr22';
 	$password = 'DCPdrQfW';
 	$hostname = 'mysql01.ucs.njit.edu';
 	$dsn = "mysql:host=$hostname;dbname=$username";
 	$vars;
-	//$vars_email;
 	try {
 		$conn = new PDO($dsn, $username, $password);
 		echo "Connected successfully<br>";
