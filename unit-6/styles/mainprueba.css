@@ -1,0 +1,247 @@
+/* the styles for the elements */
+/* reset selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+	}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 99%;   /* width: 800px; */
+	max-width:960px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+	box-shadow: 5px 5px #931420;
+}
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	position:relative;
+}
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul li:hover > ul{
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu li {
+	float: left;
+	width: 20%;  /*width: 160px;*/
+}
+#nav_menu ul li a{
+	display: block;
+	
+	color: white;
+	font-weight:bold;
+	text-align: center;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-decoration:none;
+	background-color:#800000;
+}
+#nav_menu ul li a.current {
+	color:yellow;
+}
+ul circle {
+	list-style-type: circle;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-image: linear-gradient(10deg, #f6bb73 10%, #f6bb73 30%, white 50%, #f6bb73 60%, #f6bb73 80%)
+}
+.shadoword {
+	font-family: bold;
+	text-shadow: 1.5px 1.5px gray;
+	font-size:130%;
+}
+	
+header img {
+	float: left;
+	padding-right: 3.75%;  /*padding-right: 30px;*/
+	padding-left: 3.75%;
+	
+}
+
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	
+	
+}		
+
+
+
+/* the styles for the section */
+section {
+	border: 1px solid green;
+	width:50%;  /*width:525px;*/
+	/*float: right;*/
+	padding-left:2.5%;  /*padding-left:20px;*/
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	
+}
+aside {
+	border: 1px solid blue;
+	width: 25%;  /*width: 215px;*/
+	/*float: left;*/
+	padding-left: 2.5%;
+	padding-bottom: 2.5%;	
+}	
+
+main {
+	clear: left;
+	
+}
+header h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top:.25em;
+	padding-bottom: .5ems;
+	
+
+}
+section h1 {
+	font-size: 150%;
+	padding-top:10px;
+	padding-bottom: 5px;
+	margin: 0;
+	border-bottom: 2px solid #800000;
+}
+section h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: 5px;
+	padding-bottom: .5em;
+
+}
+section h3 {
+	font-size:105%;
+	padding-bottom: .5em;
+	padding-top:.25em;
+	
+}
+section img {
+	float: right;
+	margin: 5px 0px 5px 5px;
+	border: 1px solid black;
+	max-width: 40%;
+	min-width: 150px;
+}
+/* tablet portrait */
+@media only screen and (max-width: 959px){
+	section h1 {
+		font-size: 135%;
+	}
+	section h2 {
+		font-size: 120%;
+	}
+	aside h2 {
+		font-size: 120%;
+	}
+}
+/* mobile landscape */
+@media only screen and (max-width: 767px) {
+	header img {
+		float: none;
+	}
+	header h2 h3 {
+		text-align: center;
+	}
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
+	
+}
+/* phone in portrait orientation */
+@media only screen and (max-width: 479px) {
+	font-size: 90%;
+}
+
+
+aside a:hover, a:focus {
+	font-style: italic;
+	color: red;
+	padding-bottom: 5px;
+}
+.border {
+	border-top: 2px solid #800000;
+	padding-top: 20px;	
+	
+}
+section p{
+	padding-bottom: 20px;
+}
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top:.5em;
+	padding-bottom: .25em;
+	
+}
+aside a {
+	font-size: 80%;
+}
+
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25 ems;
+}
+aside img {
+	padding-bottom:  1em;
+}
+header h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+section ul {
+		padding-bottom:.25em;
+		padding-left: 1.25em;
+}
+section li {
+		padding-bottom:.35em;
+}
+	
+/* the styles for the footer */
+footer p{
+	color: white;
+	text-align: center;
+	border-top: 3px solid #931420;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #931420;
+	clear: both;
+}

@@ -1,0 +1,197 @@
+* {
+	margin : 0;
+	padding : 0;
+	}	
+header  {
+	font-family: Comic Sans, cursive;
+	color: #371C90;
+	float:left;
+	width: 100%;
+	padding-top:1px;
+	padding-bottom:1px;
+	background-image: linear-gradient(20deg, #7E99D0 10%, #9AB5EA 30%, white 100%, #6290ED 60%, #7E99D0 80%);
+}
+header img {
+	float:left;
+	padding-bottom:5px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+.logo2 {
+	
+	float: right;
+	padding-right: 30px;
+	padding-bottom:5px;
+	padding-top: 10px;
+}
+header h1 {
+	margin:5px;
+	text-align: center;
+	font-size: 40px;
+}
+html {
+	background-color: white;
+	}
+body {
+	width: 99%;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 4px solid #06042F;
+	box-shadow: 5px 5px #6539F9;
+	}
+#nav_menu ul{
+	list-style-type: none; 
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	margin-top: 10px;
+	width: 100%;	
+}
+#nav_menu li {
+	float:left;
+	width: 25%;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 100%;
+	color: white;
+	font-weight:bold;
+	text-align: center;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-decoration:none;
+	background-color:#120F6E;
+	border: 2px solid #06042F;
+}
+#nav_menu li a:hover { 
+	background-color: #7E7BD1; 
+}
+#nav_mobile {
+	display: none;
+}
+#sideA, #sideB, #sideC { 
+	width: 30%;
+	display: inline-block;
+	height: 500px; 
+	padding: 10px; 
+	margin: 0;
+	} 
+#mobile_menu {
+	display: none;
+}
+
+/* mobile landscape */
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+		}
+	#mobile_menu {
+		display: block;	
+	
+		}
+	#nav_ menu img {
+		height: 100px;
+	}
+	.slicknav_menu {
+		background-color: #120F6E !important;
+		}
+	body {
+		width:99%;
+		font-size: 100%;
+		border: 1px solid black;
+		box-shadow: none;
+	}
+	header h1 {
+		font-size: 20px;
+	}
+	header img {
+		height: 40px;
+	}
+	footer p {
+		font-size: 10px;
+	}	
+	#sideA,#sideB,#sideC{
+		width: 90%;
+	}
+}
+/* phone in portrait orientation */
+@media only screen and (max-width: 479px) {
+	#nav_menu {
+		display: none;
+		}
+	#mobile_menu {
+		display: block;	
+		}
+	#nav_ menu img {
+		height: 100px;
+	}
+	.slicknav_menu {
+		background-color: #120F6E !important;
+		}
+	body {
+		width:99%;
+		font-size: 100%;
+		border: 1px solid black;
+		box-shadow: none;
+	}
+	header h1 {
+		font-size: 20px;
+	}
+	header img {
+		height: 40px;
+	}
+	footer p {
+		font-size: 10px;
+	}	
+	#sideA,#sideB,#sideC{
+		width: 90%;
+	}
+}
+.main-div {
+	margin: 0;
+	padding: 0;
+}
+.imageilign {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #120F6E;;
+	clear: both;
+	border-top: 4px solid #06042F; 
+	clear: both;
+	}
+main {
+	background: lightblue;
+}	
+.deals-destination {
+	width: 280px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 20px;
+	border: 2px solid darkblue;
+	border-radius: 15px;
+	background: white;
+}
+.deals-destination ul{
+	padding-top:20px;
+	line-height: 1.5;
+	padding-left: 60px;
+	color: blue;
+}
+.deals-destination h2{
+	padding-top: 20px;
+	text-align: center;
+	color: darkblue;
+	font-weight: bold;
+}

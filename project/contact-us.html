@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Time to Travel</title>
+		<link rel="shortcut icon" href="images/logo4.jpg">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/contact-us.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="styles/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$ (document).ready(function()
+			{
+				$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+				});
+		</script>
+	</head>
+<body>
+	<header>	
+		<img class="logo2" src="images/logo4.jpg" alt="agency logo" height="60">
+		<img src="images/logo4.jpg" alt="agency logo" height="60">
+		<h1>Contact Us</h1>
+	</header>
+	<nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="packages-deals.html">Packages Deals</a></li>
+			<li><a href="pictures.html">Pictures</a></li>
+			<li><a href="contact-us.html">Contact Us</a></li>
+		</ul>
+	</nav>	
+	<main>
+		<div class="contact-form">
+			<h2>Contact Information</h2></br>
+			<span class="etiquetas">Name: </span>
+			<input type="text" value=""></br></br>
+			<span class="etiquetas">Email: </span>
+			<input type="text" value="">
+			</br></br>
+			<span>Message: </span></br></br>
+			<textarea rows="10" cols="40">
+			</textarea></br>
+			<div class="click">
+			<button class="button" type="button" onclick="alert('Submitted')">Submit</button>
+			</div>
+		</div>
+		<div class="contacts">
+			<h2>Contact Information</h2>
+			<h3>Time to Travel</h3>
+			<p>312 Morris Ave</p>
+			<p>Elizabeth, New Jersey 07888</p>
+			<p> United States</p>
+			<p>Call: 1-800-5553333
+			<p>Email: help@timetotravel.com</p>
+		</div>
+	</main>
+	<footer>
+		<p> &copy Time to Travel 2017. All right reserved. Term & conditions.</p>
+	</footer>
+</body>
+</html>

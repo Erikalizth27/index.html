@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+	color: DarkBlue;
+	font-size: 40px;
+	font-family: Comic Sans MS;
+}
+li {
+	color:DarkRed;
+	font-size: 20px;
+
+}
+body {
+	    background-color: lightblue;
+}
+img {
+    width: 180px;
+	height: 120px;
+	display: block;
+	margin: auto;
+}
+
+
